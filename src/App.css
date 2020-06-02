@@ -1,20 +1,7 @@
 .App {
   text-align: center;
-  background-color:black;
 }
-.banner{
-  margin:50px;
-  padding:10px;
-}
-.white{
-  background-color:white;
-}
-.Banner{
-  opacity: initial;
-}
-.Card{
-  box-shadow: 10px 10px 10px yellow;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,7 +27,14 @@
 .App-link {
   color: #61dafb;
 }
-
+.square{
+  border: #282c34;
+  border-radius: 10px;
+  background-origin: border-box;
+  width:60px;
+  height: 60px;
+  margin:10px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
