@@ -46,7 +46,7 @@ componentDidMount(){
   this.getTopScorer() // this will load the leaderboard into the first page 
 }
  getTopScorer = async()=>{
-  const url = `http://ftw-highscores.herokuapp.com/tictactoe-dev?reverse=true`
+  const url = `https://ftw-highscores.herokuapp.com/tictactoe-dev?reverse=true`
   const result = await fetch(url)
   const result2 = await result.json()
   this.setState(
